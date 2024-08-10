@@ -2,6 +2,7 @@
 This is a customization from the already verywell crafted raingauge from 
 [SmartSolutionsforHome](https://www.youtube.com/@SmartSolutionsForHome)
 
+Video link for the awesome raingauge: [Youtube Video](https://www.youtube.com/watch?v=P2-hs2m6eCE&ab_channel=SmartSolutionsforHome)
 
 One flaw in the homeassistent code is that when ever it restarts it adds 0,5 to the measurement, and also, requests for daily reports has been made. 
 Thous have i made some code for this. 
