@@ -1,5 +1,7 @@
 # DIY-Zigbee-RainGauge
-This is a customization from the already verywell crafted raingauge from SmartSolutionsforHome(https://www.youtube.com/@SmartSolutionsForHome)
+This is a customization from the already verywell crafted raingauge from 
+[SmartSolutionsforHome](https://www.youtube.com/@SmartSolutionsForHome)
+
 
 One flaw in the homeassistent code is that when ever it restarts it adds 0,5 to the measurement, and also, requests for daily reports has been made. 
 Thous have i made some code for this. 
@@ -21,7 +23,7 @@ Go into Settings->Devices->Helpers
 Then press the + button, find the counter and give it a name and press create
 
 ## 3. step
-Noe its time to add som automation.
+Now its time to add some automation.
 In a yaml i looks like this:
 
 ```yaml
@@ -52,9 +54,9 @@ I have just created an automation in the GUI
 
 Goto settings->Automations and then press the + button
 
-you choose the doorsensor you just added and then choose when its open
+Choose the doorsensor you just added and then choose when its open
 
-Then duplicate it and change it to then its closed
+Then duplicate it and change it to when its closed
 
 you should now have 2, one open and one closed
 
